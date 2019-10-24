@@ -1,0 +1,130 @@
+
+.box{
+	margin: 0 auto;
+	width: 45%;
+	height: 1000px;
+	background: url(4.png);
+	background-repeat: no-repeat;
+	background-size: 600px 600px;
+	/*margin-left: 18.5%;*/
+	padding-top: 7rem;
+}
+
+.box .login{
+	margin: 0 auto;
+	width: 370px;
+	height: 400px;
+	/*margin-left: 10rem;*/
+	/*background: white;*/
+	border: 1px;
+}
+
+.login legend{
+	display: block;
+	width: 18%;
+	height: 80px;
+	text-align: center;
+	padding: 0.3rem 1rem;
+	margin: 0;
+	opacity: 0.4;
+	font-family: Courier New, monospace;
+	border-radius: 100px;
+	background-image: url(Icon/4.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/*box-shadow: 10px 10px 8px 10px black;*/
+	/*background: gray;*/
+}
+
+
+.login .form-group{
+	margin: 0 auto;
+	width: 85%;
+	/*height: 80px;*/
+	/*background: gray;*/
+}
+
+.form-group .form-control{
+	display: block;
+	width: 100%;
+	/*margin: 0;*/
+	box-sizing: border-box;
+	padding: 0.5rem 0;
+	color: black;
+	padding-left: 2.5rem; /*thụt chữ vào*/
+	margin-bottom: 10px;
+}
+.form-group .form-control:focus{
+	background: white;
+	border: 2px solid white;					
+}
+.form-group .btn-login{
+	width: 100%;
+	padding: 0.5rem 0;
+	display: block;
+	margin: 0 auto;
+	/*text-transform: uppercase;*/
+	margin-top: 1rem;
+	/*background: #16acaf;*/
+	color: black;
+	border: none;
+	font-weight: bold;
+	font-family: Lucidatypewriter, monospace;
+	font-size: 14px;
+	opacity: 0.4;
+}
+
+.form-group .btn-login:hover{
+	background: white;
+	color: #16acaf;
+}
+.chu{
+	width: 100%;
+	/*background: green;*/
+}
+.chu .chu1{
+	float: left;
+	width: 40%;
+	margin-left: 2rem;
+}
+.chu .chu2{
+	float: left:
+	width: 30%;
+	margin-left: 12rem;
+}
+.chu label{
+	color: white;
+}
+.chu p{
+	text-decoration: none;
+	text-align: justify;
+	color: white;
+}
+.chu p a:hover{
+	text-decoration: none;
+	color: red;
+}
+.form-group .username{
+	background-image: url(Icon/1.png);
+	background-repeat: no-repeat;
+	background-size: 30px 30px;
+}
+.form-group .username:focus{
+	background-image: url(Icon/1.png);
+	background-repeat: no-repeat;
+	background-size: 25px 25px;
+
+}
+.form-group .password{
+	background-image: url(Icon/2.png);
+	background-repeat: no-repeat;
+	background-size: 30px 30px;
+	
+}
+.form-group .password:focus{
+	background-image: url(Icon/2.png);
+	background-repeat: no-repeat;
+	background-size: 28px 28px;
+
+}
+
